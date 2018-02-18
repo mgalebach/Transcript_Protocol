@@ -8,19 +8,20 @@ body{
 	color: #002952;
 	text-align: center;
 }
-#quote{
-	color: #ffffff;
-	font-size: 30px;
-	font-style: italic;
-}
 #getStarted{
-	background-color: #002952;
+	background-image: url("columbiaPic.jpg");
+	filter: opacity(25%);
 	background-size: cover;
 	background: contain;
 	text-align: center;
 	width: 100%; 
     height: 500px; 
     max-width:1400px;
+}
+#quote{
+	color: #ffffff;
+	font-size: 30px;
+	font-style: italic;
 }
 .button{
 	background-color: transparent;
@@ -59,11 +60,12 @@ p{
 	font-size: 40px;
 }
 #team-jumbo{
-	background-image: url("columbiaPic.jpg");
+	background-color: #f0f8ff;
 	background-size: cover;
 }
+
 #our-team{
-	color: #ffffff;
+	color: #646464;
 	padding-left: 55px;
 }
 img{
